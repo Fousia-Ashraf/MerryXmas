@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Montserrat:wght@500&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Caveat:wght@600&family=Montserrat:wght@500&display=swap');
+/* font-family: 'Berkshire Swash', cursive; */
+/* font-family: 'Eczar', serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./image/red.png")no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.write{
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center; */
+    width: 506px;
+    height: 807px; 
+
+ }
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 800px;
+}
+.card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 600px;
+
+}
+.card:hover{
+    transform:  rotate(-3deg)
+}
+.card .card-bg{
+    position: absolute;
+    /* margin-top: 50px; */
+
+}
+.card .card-bg img{
+    z-index: 1;
+    width: 100%;
+    border-radius: 10px
+    ;
+}
+.card .title{
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    line-height: 50px;
+    transition: all 0.3s ease-out;
+}
+.card .title h2{
+    font-family: 'Eczar', serif;
+    font-size: 25px;
+    text-transform:uppercase;
+}
+.card .title h1{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+.card .title h3{
+    font-family: 'Eczar', serif;
+    font-size: 25px;
+    text-transform:uppercase;
+    margin-top: 5px;
+}
+.card .images{
+    margin-top: 118px;
+    width: 236px;
+    height: 241px;
+}
+.tree{
+    z-index: 2;
+    position: absolute;
+    width: 255px;
+    height: 261px;
+    transition: all 0.3s ease-out;
+}
